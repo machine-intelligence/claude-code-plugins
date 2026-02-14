@@ -1,0 +1,15 @@
+{
+  "name": "miri-tools",
+  "description": "MIRI Claude Code plugins",
+  "owner": {
+    "name": "Machine Intelligence Research Institute"
+  },
+  "plugins": [
+    {
+      "name": "video-tools",
+      "description": "Tools for downloading and clipping videos from the internet",
+      "source": "./video-tools",
+      "category": "productivity"
+    }
+  ]
+}

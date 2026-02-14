@@ -1,0 +1,7 @@
+{
+  "name": "video-tools",
+  "version": "0.1.0",
+  "description": "Tools for downloading and clipping videos from the internet.",
+  "author": { "name": "Malo Bourgon" },
+  "keywords": ["video", "download", "clip", "youtube", "ffmpeg"]
+}
