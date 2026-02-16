@@ -24,7 +24,8 @@ brew install yt-dlp ffmpeg
 In PowerShell or Command Prompt:
 
 ```powershell
-winget install yt-dlp ffmpeg Python.Python.3
+winget install yt-dlp Python.Python.3
+# ffmpeg is installed as a dependency for yt-dlp
 ```
 
 ## Skills
