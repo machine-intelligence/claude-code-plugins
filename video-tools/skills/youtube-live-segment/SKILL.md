@@ -170,4 +170,6 @@ skill can be updated to handle that case in the future.
 If any of these are missing, use AskUserQuestion to offer to install them. On macOS, check
 if `brew` is available first — if not, direct the user to https://brew.sh/ to install
 Homebrew (it requires interactive setup). Once Homebrew is available:
-`brew install yt-dlp ffmpeg`. On Windows: `winget install yt-dlp ffmpeg Python.Python.3`.
+`brew install yt-dlp ffmpeg`. On Windows: `winget install yt-dlp.yt-dlp` (this automatically
+installs ffmpeg as a dependency). Verify Python 3 is available separately — it is often
+already installed.
