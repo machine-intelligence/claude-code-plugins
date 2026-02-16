@@ -145,6 +145,8 @@ For other time zones, ask the user or look up the offset.
 
 - **DASH formats cannot be partially downloaded.** Always use HLS (m3u8) formats for this technique.
 - **yt-dlp `--download-sections` does not work** on live streams with DASH formats. Do not retry it.
+- **DVR buffers are typically only 4-6 hours deep.** If the user requests a time outside the buffer, the segments won't exist. There is no 
+  workaround — once content rolls out of the DVR buffer, it's gone from YouTube's servers.
 - **Segment numbers shift** as the DVR buffer rolls forward on 24/7 streams. Run the script close to when the user requests the clip, not hours later.
 - **Buffer generously.** The script adds 60 seconds of padding by default. Use `--buffer` to increase if needed. Trimming after download is cheap.
 
