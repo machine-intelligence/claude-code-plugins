@@ -36,6 +36,8 @@ time window you want. It downloads a rough cut, asks you to review it and pick e
 points, then produces the final clip. A 20-minute segment downloads in under a minute.
 
 Works with any YouTube live stream that has DVR enabled (CBS News 24/7, ABC News Live, CNN, etc.).
+Note that YouTube live streams only store 4-6 hours of video; if it's been longer than that since 
+the clip aired, Claude won't be able to retrieve it. 
 
 **Examples:**
 
